@@ -1,4 +1,4 @@
-package micronaut.world;
+package com.micronaut.world;
 
 import io.micronaut.runtime.Micronaut;
 

@@ -1,5 +1,5 @@
 profile: service
 defaultPackage: micronaut.world
 ---
-testFramework: junit
-sourceLanguage: java
+testFramework: spock
+sourceLanguage: groovy
