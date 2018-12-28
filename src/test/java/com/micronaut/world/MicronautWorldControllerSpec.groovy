@@ -12,6 +12,7 @@ class MicronautWorldControllerSpec extends Specification {
 
     @Shared @AutoCleanup EmbeddedServer embeddedServer = ApplicationContext.run(EmbeddedServer)
     @Shared @AutoCleanup HttpClient httpClient = HttpClient.create(embeddedServer.URL)
+
     void "test index to respond the hello world message"() {
         expect:
         httpClient.toBlocking().retrieve(HttpRequest.GET('/message')) == 'Hello Micronaut'
