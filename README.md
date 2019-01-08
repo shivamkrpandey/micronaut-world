@@ -40,3 +40,13 @@ testFramework: spock // JUnit
 sourceLanguage: groovy // Java or Kotlin
 
 ```
+
+### Changing Port
+
+To change the port on which application will run,
+
+```
+micronaut:
+    server:
+      port: 8086 // You can set it to -1 to run on random ports
+```

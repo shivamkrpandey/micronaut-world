@@ -1,3 +1,5 @@
 micronaut:
     application:
         name: micronaut-HelloController
+    server:
+      port: 8086
